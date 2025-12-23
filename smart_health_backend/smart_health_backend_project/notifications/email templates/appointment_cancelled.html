@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Appointment Cancelled</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f6f6f6; margin: 0; padding: 0;">
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" style="padding: 20px 0;">
+
+        <table width="600" cellpadding="20" cellspacing="0" style="background: #ffffff; border-radius: 8px;">
+          <tr>
+            <td>
+
+              <h2 style="color: #d9534f; margin-bottom: 10px;">Appointment Cancelled</h2>
+
+              <p>Hello <strong>{{ patient_name }}</strong>,</p>
+
+              <p>Your appointment has been cancelled. Here are the details:</p>
+
+              <p>
+                <strong>Date:</strong> {{ date }} <br>
+                <strong>Time:</strong> {{ time }}
+              </p>
+
+              <p>
+                If this was a mistake, you can log into your dashboard and book a new appointment
+                at any time.
+              </p>
+
+              <p style="margin-top: 30px;">
+                Regards, <br>
+                <strong>Smart Health Consultation Team</strong>
+              </p>
+
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <html>
+<body>
+  <h2>Appointment Cancelled</h2>
+
+  <p>Hello {{ patient_name }},</p>
+
+  <p>Your appointment scheduled for:</p>
+
+  <p><strong>Date:</strong> {{ date }}</p>
+  <p><strong>Time:</strong> {{ time }}</p>
+
+  <p>has been <strong>cancelled</strong>.</p>
+
+  <p>If this was a mistake, you can book a new appointment immediately from your dashboard.</p>
+
+  <p>Smart Health Consultation Team</p>
+</body>
+</html> -->

@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+# Ignore all env variants if you have multiple env files
+.env*
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Django stuff
+media/
+staticfiles/

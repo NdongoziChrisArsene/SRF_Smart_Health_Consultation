@@ -1,0 +1,6 @@
+[2025-12-22 14:20:37,716] [ERROR] ai: Gemini initialization failed
+Traceback (most recent call last):
+  File "C:\Users\ac\Desktop\SRF_Smart_Health_Consultation\SRF_Smart_Health_Consultation\smart_health_backend\smart_health_backend_project\ai\gemini_utils.py", line 12, in <module>
+    genai.configure(api_key=settings.GEMINI_API_KEY)
+    ^^^^^^^^^^^^^^^
+AttributeError: module 'google.genai' has no attribute 'configure'
